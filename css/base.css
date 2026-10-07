@@ -66,3 +66,12 @@ footer {
 footer a {
     color: white;
 }
+
+.profile-photo {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 20px auto;
+}
+
