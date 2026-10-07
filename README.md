@@ -4,9 +4,11 @@ INFR3120U Assignment 1: a personal portfolio using HTML5 and CSS3.
 
 ## Current progress
 
-- Created the four HTML page files and CSS files.
-- Added the initial Home page introduction, navigation, and copyright.
-- Styling, the remaining pages, media, and validation are still in progress.
+- Created four separate HTML pages with shared navigation and footers.
+- Added the colour palette, gradients, and responsive stylesheets.
+- Added the About-page portrait and HTML5 introduction video.
+- Project entries, the contact form, deployment, and final validation
+  are still in progress.
 
 ## Assistance
 
@@ -78,4 +80,19 @@ at 375 x 800. Navigation, text, and footers fit, and no page errors
 were displayed in Console.
 
 Formal HTML, CSS, and accessibility validation is still pending.
+
+## About-page media
+
+- Portrait: images/farhan.jpeg, with descriptive alternative text.
+- Introduction recording: videos/introduction.mp4.
+- The portrait is also used as the video's poster image.
+- The HTML5 player includes native controls and fallback content.
+- The portrait and video scale down to fit smaller screens.
+
+The portrait and recording feature Farhan Hossain.
+The video markup was adapted from the INFR3120U Week2 course notes,
+pages 4–7, with some AI guidance for integration into this portfolio.
+AI also helped assemble and explain the responsive media styling.
+
+The video player was visually checked on desktop and at 375px width.
 
