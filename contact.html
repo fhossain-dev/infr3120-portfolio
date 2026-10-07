@@ -34,6 +34,56 @@
                 Get in touch to discuss my projects,
                 interests, or potential opportunities!
             </p>
+            All fields are required. Submitting opens your email app, 
+            where you can review and send your message.
+        </p>
+        
+        <form class="contact-form"
+              action="mailto:farhan.hossain2@ontariotechu.net"
+              method="post"
+              enctype="text/plain"
+              name="contact">
+
+            <p>
+                <label for="fullname">Name:</label><br>
+                <input type="text"
+                id="fullname"
+                name="fullname"
+                required>
+            </p>
+            
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+            </p>
+
+            <p>
+                <label for="phone">Cell number (10 digits, no spaces):</label><br>
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       pattern="[0-9]{10}"
+                       title="Enter a 10 digits number without spaces or special characters."
+                       required>
+            </p>
+
+            <p>
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments"
+                          name="comments"
+                          rows="6"
+                          cols="30"
+                          required></textarea>
+            </p>
+
+            <p>
+                <input class="submit-button" type="submit" value="Submit">
+            </p>
+        </form>
+                
         </section>
     </main>
 

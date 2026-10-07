@@ -8,7 +8,8 @@ INFR3120U Assignment 1: a personal portfolio using HTML5 and CSS3.
 - Added the colour palette, gradients, and responsive stylesheets.
 - Added the About-page portrait and HTML5 introduction video.
 - Added four project entries with shared card styling.
-- The contact form, deployment, and final validation are still in progress.
+- Deployment and final validation are still in progress.
+- Added and locally tested the responsive Contact form.
 
 ## Projects page
 Four project entries use separate HTML5 article elements,
@@ -20,6 +21,39 @@ padding to fit narrower screens.
 
 AI helped draft the descriptions from my project information
 and guided the HTML integration and responsive styling.
+
+## Contact form
+
+The form includes Name, Email, Cell number, Comments, and Submit.
+All four fields are required. HTML5 email validation checks the
+email format, and the phone pattern requires exactly 10 digits.
+
+The form uses the mailto approach from the Week 2
+course notes. It opens the visitor's configured email application
+with the recipient and entered information. The visitor must
+review and send the email because the website does not send it
+automatically.
+
+The form structure, labels, textarea, submit control, and required
+and email validation were adapted from the Week 2 course examples.
+The telephone input and pattern validation were added with some AI
+guidance and reference to the WHATWG HTML Standard:
+https://html.spec.whatwg.org/dev/input.html
+
+AI also helped assemble the form CSS when stuck or confused, explain
+validation, as well as support with course material, also helped
+identify quotation-mark errors in the opening form tag.
+
+### Local form testing — October 7, 2026
+
+Tested in Opera browser on Windows:
+- Blank Name, Email, Phone, and Comments were each blocked.
+- Email 'hello' was rejected.
+- Phone '12345' and 'abcdefghij' were rejected.
+- Valid details opened an Outlook draft containing a recipient
+  and all four entered values.
+
+Testing on the deployed website and formal validation are pending.
 
 ## Assistance
 

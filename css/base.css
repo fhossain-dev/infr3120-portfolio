@@ -94,3 +94,40 @@ footer a {
 .project-card h3 {
     margin-top: 0;
 }
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #0B555C;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #0B225C;
+}
+
+/* Override the shared input styling for the submit button. */
+.contact-form .submit-button {
+    width: auto;
+    background-color: #0B3C5D;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.contact-form .submit-button:hover,
+.contact-form .submit-button:focus {
+    background-color: #0B5C48;
+    text-decoration: underline;
+}
