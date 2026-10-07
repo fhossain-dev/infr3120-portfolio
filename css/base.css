@@ -82,3 +82,15 @@ footer a {
     height: auto;
     margin: 20px auto;
 }
+
+.project-card {
+    background-color: #F4F9F9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}

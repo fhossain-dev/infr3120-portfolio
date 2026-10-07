@@ -7,8 +7,19 @@ INFR3120U Assignment 1: a personal portfolio using HTML5 and CSS3.
 - Created four separate HTML pages with shared navigation and footers.
 - Added the colour palette, gradients, and responsive stylesheets.
 - Added the About-page portrait and HTML5 introduction video.
-- Project entries, the contact form, deployment, and final validation
-  are still in progress.
+- Added four project entries with shared card styling.
+- The contact form, deployment, and final validation are still in progress.
+
+## Projects page
+Four project entries use separate HTML5 article elements,
+each with a heading and a short description.
+
+The card appearance was adapted from the supplied course
+stylesheet, style(1)(1).css. Smartphone styling reduces card
+padding to fit narrower screens.
+
+AI helped draft the descriptions from my project information
+and guided the HTML integration and responsive styling.
 
 ## Assistance
 
@@ -80,6 +91,10 @@ at 375 x 800. Navigation, text, and footers fit, and no page errors
 were displayed in Console.
 
 Formal HTML, CSS, and accessibility validation is still pending.
+
+- Checked the Projects page at 375 × 800: all four cards,
+  navigation, and footer fit without visible horizontal overflow.
+  No page errors appeared in the browser Console.
 
 ## About-page media
 
