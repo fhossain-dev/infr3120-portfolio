@@ -149,7 +149,7 @@ text, and footers fit. A final responsive and browser Console check
 of the deployed pages after the media and form changes is pending.
 
 Formal HTML and CSS validation passed on October 7, 2026.
-Accessibility, link, and spelling checks are still pending.
+Accessibility and spelling checks are still pending.
 
 - Checked the Projects page at 375 × 800: all four cards,
   navigation, and footer fit without visible horizontal overflow.
@@ -241,3 +241,54 @@ the Pages deployment finishes successfully in GitHub Actions.
 Farhan Hossain.
 Course adaptations, external references, and AI assistance are
 described in the relevant sections above.
+
+## Link checking — October 8, 2026
+
+Tested the published website using the W3C Link Checker:
+https://validator.w3.org/checklink
+
+Recursive checking was enabled with a depth of 1.
+The checker processed 9 documents, covering all four HTML
+pages and the shared stylesheets. The About-page portrait
+and introduction video URLs were also checked.
+
+No broken HTTP or HTTPS links were reported.
+The checker reported N/A notices for the footer email links
+because checking mailto URLs is disabled in the service.
+
+Contact form submission was tested separately and opened
+an Outlook draft, as documented above.
+
+## WAVE accessibility checking — October 8, 2026
+
+Checked all four published pages using https://wave.webaim.org/.
+
+| Page | Errors | Contrast errors | Alerts |
+| --- | --- | --- | --- |
+| Home | 0 | 0 | 0 |
+| About | 0 | 0 | 2 |
+| Projects | 0 | 0 | 0 |
+| Contact | 0 | 0 | 0 |
+
+WAVE recognized all four Contact form labels.
+
+The About-page alerts were "Audio/Video" and
+"HTML5 video or audio", relating to the MP4 link and video player.
+These require manual review of media accessibility, including
+captions, a transcript, and keyboard controls.
+
+These automated results do not establish full accessibility.
+Manual accessibility checks are still pending.
+
+### Manual keyboard testing — October 8, 2026
+
+Tested on the published website in Opera browser on Windows:
+- Navigation links showed visible keyboard focus and opened with Enter
+  across all four pages.
+- The About-page video could be played and paused using the keyboard,
+  and focus could move away from the player.
+- Contact fields and Submit were reachable in the expected order.
+  Focus was visible, and all four fields accepted typed input.
+
+A transcript was added beneath the About-page video and checked locally.
+Synchronized captions are still pending.
