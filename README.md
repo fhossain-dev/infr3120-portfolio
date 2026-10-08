@@ -18,7 +18,8 @@ https://github.com/fhossain-dev/infr3120-portfolio
 - Added four project entries with shared card styling.
 - Published the portfolio using GitHub Pages.
 - All four HTML pages and all four CSS stylesheets passed validation.
-- Accessibility, link, and spelling checks are still in progress.
+- Completed link checking, spelling checking, WAVE checks, and manual keyboard testing.
+- Further media accessibility review remains pending, including synchronized captions.
 - Added and locally tested the responsive Contact form.
 
 ## Projects page
@@ -149,7 +150,9 @@ text, and footers fit. A final responsive and browser Console check
 of the deployed pages after the media and form changes is pending.
 
 Formal HTML and CSS validation passed on October 7, 2026.
-Accessibility and spelling checks are still pending.
+Link, spelling, WAVE, and manual keyboard checks were completed
+on October 8, 2026. Further media accessibility review remains
+pending, including synchronized captions.
 
 - Checked the Projects page at 375 × 800: all four cards,
   navigation, and footer fit without visible horizontal overflow.
@@ -184,8 +187,9 @@ https://validator.w3.org/nu/
 | projects.html | 0 | 0 |
 | contact.html | 0 | 0 |
 
-Validation identified malformed media attributes and a missing
-opening paragraph tag. These were corrected, pushed, and checked again.
+About and Contact were revalidated on October 8, 2026,
+after adding the video transcript and explicitly closing
+the first Contact paragraph. Both returned no errors or warnings.
 
 ### CSS — W3C CSS Validation Service
 https://jigsaw.w3.org/css-validator/
@@ -278,7 +282,8 @@ These require manual review of media accessibility, including
 captions, a transcript, and keyboard controls.
 
 These automated results do not establish full accessibility.
-Manual accessibility checks are still pending.
+Manual keyboard checks were completed as documented below.
+Further media accessibility review remains pending.
 
 ### Manual keyboard testing — October 8, 2026
 
@@ -290,5 +295,15 @@ Tested on the published website in Opera browser on Windows:
 - Contact fields and Submit were reachable in the expected order.
   Focus was visible, and all four fields accepted typed input.
 
-A transcript was added beneath the About-page video and checked locally.
+A transcript is available beneath the About-page video.
 Synchronized captions are still pending.
+
+## Spelling check — October 8, 2026
+
+The published text from all four pages, including the About-page
+video transcript, was checked using Microsoft Word Editor with
+English (Canada) selected. No spelling issues were reported.
+
+A comma-removal suggestion in the transcript was applied in
+about.html. The optional suggestion to remove "actually" was
+declined to preserve the spoken wording.
