@@ -2,13 +2,23 @@
 
 INFR3120U Assignment 1: a personal portfolio using HTML5 and CSS3.
 
+## Website and repository
+
+Live website:
+https://fhossain-dev.github.io/infr3120-portfolio/
+
+Public repository:
+https://github.com/fhossain-dev/infr3120-portfolio
+
 ## Current progress
 
 - Created four separate HTML pages with shared navigation and footers.
 - Added the colour palette, gradients, and responsive stylesheets.
 - Added the About-page portrait and HTML5 introduction video.
 - Added four project entries with shared card styling.
-- Deployment and final validation are still in progress.
+- Published the portfolio using GitHub Pages.
+- All four HTML pages and all four CSS stylesheets passed validation.
+- Accessibility, link, and spelling checks are still in progress.
 - Added and locally tested the responsive Contact form.
 
 ## Projects page
@@ -53,13 +63,27 @@ Tested in Opera browser on Windows:
 - Valid details opened an Outlook draft containing a recipient
   and all four entered values.
 
-Testing on the deployed website and formal validation are pending.
+### Deployed website testing — October 7, 2026
+
+All four pages opened on GitHub Pages. The About-page portrait loaded
+and the introduction video played.
+
+Valid Contact form details opened an Outlook draft with the correct
+recipient and all four entered values. The draft was closed without
+sending an email.
+
+Opera browser displayed a security warning during the mailto submission.
+Continuing past the warning opened the populated email draft.
+The form depends on the visitor's configured email application.
 
 ## Assistance
 
-AI provided setup guidance and explanations, as well as from course material. 
-I adapted the introductory content. Detailed source credits will be
-added as the portfolio develops.
+AI assisted with Git and VS Code setup, explaining
+HTML and CSS based on supplied course examples, drafting project
+descriptions from my information, debugging, and interpreting tests.
+
+Course sources and the additional telephone-validation reference
+are identified in the relevant sections of this README.
 
 ## Colour scheme
 
@@ -79,7 +103,7 @@ backgrounds for the content.
 
 The blue and teal colours suit the technology focus of my
 portfolio. Dark text on white content areas makes the text
-easy to read, while green highlights navigation interactionS. 
+easy to read, while green highlights navigation interactions. 
 
 ## Gradients
 
@@ -120,11 +144,12 @@ the phone rules taking priority because they load last.
 ## Testing so far
 
 Initial desktop and tablet visual checks were completed.
-All four pages were also checked in Opera browser's responsive preview
-at 375 x 800. Navigation, text, and footers fit, and no page errors
-were displayed in Console.
+Initial responsive checks at 375 x 800 showed that navigation,
+text, and footers fit. A final responsive and browser Console check
+of the deployed pages after the media and form changes is pending.
 
-Formal HTML, CSS, and accessibility validation is still pending.
+Formal HTML and CSS validation passed on October 7, 2026.
+Accessibility, link, and spelling checks are still pending.
 
 - Checked the Projects page at 375 × 800: all four cards,
   navigation, and footer fit without visible horizontal overflow.
@@ -145,3 +170,74 @@ AI also helped assemble and explain the responsive media styling.
 
 The video player was visually checked on desktop and at 375px width.
 
+## HTML and CSS validation
+
+Tested the published GitHub Pages files on October 7, 2026.
+
+### HTML — W3C Nu HTML Checker
+https://validator.w3.org/nu/
+
+| Page | Errors | Warnings |
+| --- | --- | --- |
+| index.html | 0 | 0 |
+| about.html | 0 | 0 |
+| projects.html | 0 | 0 |
+| contact.html | 0 | 0 |
+
+Validation identified malformed media attributes and a missing
+opening paragraph tag. These were corrected, pushed, and checked again.
+
+### CSS — W3C CSS Validation Service
+https://jigsaw.w3.org/css-validator/
+
+Profile: CSS level 3 + SVG.
+
+| Stylesheet | Result |
+| --- | --- |
+| css/base.css | No errors found; no warnings reported |
+| css/full.css | No errors found; no warnings reported |
+| css/tablet.css | No errors found; no warnings reported |
+| css/smartphone.css | No errors found; no warnings reported |
+
+## Project files
+
+| File or folder | Purpose |
+| --- | --- |
+| index.html | Home page |
+| about.html | Introduction, portrait, and video |
+| projects.html | Four project descriptions |
+| contact.html | Contact form |
+| css/base.css | Shared styling |
+| css/full.css | Default desktop layout |
+| css/tablet.css | Tablet layout overrides |
+| css/smartphone.css | Phone layout overrides |
+| images/farhan.jpeg | Portrait and video poster |
+| videos/introduction.mp4 | Introduction video |
+| README.md | Documentation, credits, and test results |
+
+## Running locally
+
+Download and extract the repository ZIP, or clone the repository.
+Keep the files and folders together, then open index.html in a browser.
+Use the navigation links to visit the other three pages.
+No installation or build step is required.
+
+The Contact form requires a configured email application.
+Submitting prepares a draft where the visitor must send it themselves.
+
+## GitHub Pages deployment
+
+The public repository publishes from the main branch and root folder.
+
+In GitHub Settings > Pages, the source is "Deploy from a branch",
+with main and /(root) selected.
+
+Changes are saved locally, staged and committed using the terminal,
+then uploaded with git push. The updated website is checked after
+the Pages deployment finishes successfully in GitHub Actions.
+
+## Author
+
+Farhan Hossain.
+Course adaptations, external references, and AI assistance are
+described in the relevant sections above.
