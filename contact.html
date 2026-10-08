@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- Adapted from the INFR3120U course and portfolio lab examples
+     with AI guidance. Semantic elements organise the page,
+     and shared navigation connects the four separate HTML pages. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,7 +41,10 @@
             All fields are required. Submitting opens your email app, 
             where you can review and send your message.
         </p>
-        
+<!-- Adapted from the Week 2 form examples.
+     mailto opens the configured email application with the entered
+     values where the visitor must review and send the message.
+     required prevents empty fields, and type="email" checks email format. -->    
         <form class="contact-form"
               action="mailto:farhan.hossain2@ontariotechu.net"
               method="post"
@@ -60,7 +66,11 @@
                        name="email"
                        required>
             </p>
-
+<!-- Additional telephone validation adapted with AI guidance.
+     Reference: https://html.spec.whatwg.org/dev/input.html
+     type="tel" identifies a telephone field.
+     pattern="[0-9]{10}" requires exactly ten digits;
+     required prevents an empty submission. -->
             <p>
                 <label for="phone">Cell number (10 digits, no spaces):</label><br>
                 <input type="tel"

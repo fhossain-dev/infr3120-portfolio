@@ -22,7 +22,8 @@ header nav ul {
     margin: 20px 0 0;
     padding: 0;
 }
-
+/* Course float layout: four links share the desktop row.
+   The clear element below the list clears the floats. */
 header nav li {
     float: left;
     width: 25%; 
@@ -66,7 +67,8 @@ footer {
 footer a {
     color: white;
 }
-
+/*   Percentage widths allow shrinking - max-width caps the display size,
+   and height: auto preserves the media proportions. */
 .profile-photo {
     display: block;
     width: 100%;
@@ -82,7 +84,8 @@ footer a {
     height: auto;
     margin: 20px auto;
 }
-
+/* Appearance adapted from the supplied style(1)(1).css.
+   Background, border, rounded corners, padding and margins separate projects. */
 .project-card {
     background-color: #F4F9F9;
     border: 1px solid #ccc;
@@ -100,7 +103,9 @@ footer a {
     max-width: 600px;
     margin: 20px 0;
 }
-
+/* Form styling assembled using course CSS techniques.
+   Fluid widths fit smaller screens; max-width limits the form on larger screens.
+   Hover and focus rules highlight mouse and keyboard interaction. */
 .contact-form label {
     font-weight: bold;
 }
