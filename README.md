@@ -146,8 +146,12 @@ the phone rules taking priority because they load last.
 
 Initial desktop and tablet visual checks were completed.
 Initial responsive checks at 375 x 800 showed that navigation,
-text, and footers fit. A final responsive and browser Console check
-of the deployed pages after the media and form changes is pending.
+text, and footers fit.
+
+Final checks of the deployed website were completed on October 8, 2026.
+All four pages were checked at 375 × 800, 768 × 1024, and desktop size.
+Navigation, text, project cards, media, and the Contact form fit without
+visible horizontal overflow. No page errors appeared during Console checks.
 
 Formal HTML and CSS validation passed on October 7, 2026.
 Link, spelling, WAVE, and manual keyboard checks were completed
