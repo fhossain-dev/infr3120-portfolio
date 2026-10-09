@@ -97,7 +97,7 @@ footer a {
 }
 
 .project-card h3 {
-    margin-top: 0; /* Removes top margin for the project title fro extra space*/
+    margin-top: 0; /* Removes top margin for the project title for extra space*/
 }
 
 .contact-form { /* Selects the contact form in the contact.html page. */
