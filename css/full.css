@@ -1,5 +1,5 @@
 /* full.css: default fluid layout uses 80% of the available width. */
 main {
     width: 80%;
-    margin: 30px auto;
+    margin: 30px auto; /* 30px above/below and centres it horizontally. */
 }

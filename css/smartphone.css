@@ -1,20 +1,20 @@
 /* smartphone.css: at 480px or below, stack navigation and reduce spacing. */
 header {
-    padding: 15px;
+    padding: 15px; /* Reduces its padding from 20px to 15px on all sides */
 }
 
 header h1 {
     font-size: 26px;
 }
 
-header nav li {
+header nav li { /* Selects all navigation items in the header. */
     float: none;
     width: 100%;
 }
 
 main {
     width: 95%;
-    margin: 15px auto;
+    margin: 15px auto; /* Reduces the margin to 15px above/below and centres it horizontally. */
 }
 
 section {
@@ -26,7 +26,7 @@ footer {
     font-size: 14px;
 }
 
-.project-card {
+.project-card { /* Selects the 4 project cards */
     padding: 15px;
 }
 
